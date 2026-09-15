@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-RG="rg-ud07-cli-test"
-LOCATION="westeurope"
+RG="rg-ud07-auto"
+LOCATION="italynorth"
 
 EXISTS=$(az group exists --name "$RG")
 
@@ -20,7 +20,7 @@ echo
 echo "Aggiorno i tag..."
 az group update \
   --name "$RG" \
-  --set tags.ManagedBy=CLI tags.UD=07 tags.State=Verified \
+  --set tags.ManagedBy=Autonomo tags.UD=07 tags.State=Verified \
   --output none
 
 echo

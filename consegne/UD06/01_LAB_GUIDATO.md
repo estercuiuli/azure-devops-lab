@@ -1,4 +1,4 @@
-1 e 2. Per iniziare ho controllato l'accesso al servizio azure e successivamente ho verificato la size del laboratorio e impostato la regione.
+1. 2. Per iniziare ho controllato l'accesso al servizio azure e impostato le variabili.
 
 3. Creo la VM dal portale, verificando la disponibilità delle regioni in base alla sottoscrizione e le relative dimensioni. Creata la VM ho ricevuto la chiave privata ssh.
 
